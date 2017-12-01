@@ -140,7 +140,7 @@ driver_init_driver( CoreGraphicsDevice  *device,
      pdrv->mmio_base = mmap( NULL, 4096,     // FIXME
                              PROT_READ | PROT_WRITE,
                              MAP_SHARED, pdrv->gfx_fd, direct_page_align( sizeof(PXA3XXGfxSharedArea) ) );
-     if (!pdrv->mmio_base) {
+     if (pdrv->mmio_base == MAP_FAILED) {
           D_PERROR( "PXA3XX/Driver: Could not map MMIO area!\n" );
           munmap( (void*) pdrv->gfx_shared, direct_page_align( sizeof(PXA3XXGfxSharedArea) ) );
           close( pdrv->gfx_fd );
