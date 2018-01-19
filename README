@@ -5,7 +5,7 @@ DirectFB README
    systems in mind. It offers maximum hardware accelerated performance
    at a minimum of resource usage and overhead. 
 
-   Check http://www.directfb.org/ for more and up to date infos.
+   Check https://github.com/DirectFB/directfb for more and up to date info.
 
 
 Supported Operating Systems
@@ -83,8 +83,7 @@ Build Requirements
    by them.
 
    The libmpeg3 video provider requires the libmpeg3 library which is
-   not commonly installed. We provide this package on our web-site at
-   http://www.directfb.org/download/contrib/.
+   not commonly installed.
 
    The avifile and flash video providers that used to be shipped with
    DirectFB have been moved to the DirectFB-extra package.
@@ -311,9 +310,7 @@ Documentation
 -------------
 
    A complete API reference documentation in HTML format is created during 
-   the build in the docs directory. You may also access the API reference
-   as well as a concepts overview, tutorials and the FAQ online at
-   http://www.directfb.org/documentation/. 
+   the build in the docs directory.
 
 
 Thanks to
@@ -418,7 +415,7 @@ site at 'http://www.sci.fi/~syrjala/'.
 Legal stuff
 -----------
    (c) Copyright 2012-2013  DirectFB integrated media GmbH
-   (c) Copyright 2001-2013  The world wide DirectFB Open Source Community (directfb.org)
+   (c) Copyright 2001-2013  The world wide DirectFB Open Source Community
    (c) Copyright 2000-2004  Convergence (integrated media) GmbH
 
    All rights reserved.
