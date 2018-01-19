@@ -810,7 +810,7 @@ sub html_create ($$$$$)
                   "\n",
                   "<TABLE width=100% bgcolor=$COLOR_TOP_BG border=0 cellspacing=0 cellpadding=5>\n",
                   "  <TR><TD width=30%>\n",
-                  "    <A href=\"http://www.directfb.org\"><IMG border=0 src=\"dfb_logo-alpha.png\"></A>\n",
+                  "    <IMG border=0 src=\"dfb_logo-alpha.png\">\n",
                   "  </TD><TD align=right>\n",
                   "    &nbsp;&nbsp;",
                   "    <A href=\"index.html\"><FONT size=+3 color=$COLOR_TOP_LINK>Reference Manual - $VERSION</FONT></A>\n",
